@@ -7,11 +7,10 @@ structure was stolen from ThePrimeagen's
 
 ## Setup
 
-* Execute `git clone https://github.com/nootr/init.lua ~/.config/nvim`.
-* Install packer.nvim, the package manager: `https://github.com/wbthomason/packer.nvim`.
-* Run `:PackerSync` to install the plugins.
-* Ignore the errors and restart Neovim.
-* Run `:PackerSync` and restart Neovim one final time.
+* Execute `git clone git@github.com:nootr/init.lua.git ~/.config/nvim`.
+* Install [packer.nvim, the package manager](https://github.com/wbthomason/packer.nvim`).
+* Run `:PackerSync` twice to install the plugins (the first run will contain errors).
+* Restart Neovim.
 * Execute `:checkhealth` for any missing dependencies.
 
 
