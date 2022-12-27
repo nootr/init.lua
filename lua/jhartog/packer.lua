@@ -45,8 +45,8 @@ return require('packer').startup(function(use)
         }
     }
 
-    -- ⚪ vim better whitespace - A trailing whitespace highlighter
-    use('ntpeters/vim-better-whitespace')
+    -- ⚪ whitespace - A trailing whitespace highlighter
+    use('johnfrankmorgan/whitespace.nvim')
 
     -- 🔏 signify - All things git
     use('mhinz/vim-signify')
@@ -54,6 +54,6 @@ return require('packer').startup(function(use)
     -- 🗣️ nvim notify - Beautiful notifications
     use('rcarriga/nvim-notify')
 
-    -- 📁 carbon - A file explorer
-    use 'SidOfc/carbon.nvim'
+    -- 💦 dashboard - A splash screen
+    use {'glepnir/dashboard-nvim'}
 end)

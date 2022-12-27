@@ -14,12 +14,13 @@ vim.keymap.set("v", "c", '"xc', { noremap = true })
 vim.keymap.set("n", "<leader>w", "<C-w>")
 vim.keymap.set("t", "<leader>w", "<C-\\><C-n><C-w>", { noremap = true })
 
--- File explorer
-vim.keymap.set("n", "<Tab>", vim.cmd.Lcarbon)
-
 -- Spawn terminal
 vim.keymap.set("n", "<leader>t", ":below split +te<CR>")
 vim.keymap.set("n", "<leader>T", ":below vertical split +te<CR>")
 
+-- File browser
+vim.keymap.set("n", "<leader>pv", ":Ex<CR>")
+
 -- Help
-vim.keymap.set("n", "?", ":new ~/.config/nvim/README.md<CR>")
+local home = os.getenv('HOME')
+vim.keymap.set("n", "?", ":new " .. home .. "/.config/nvim/README.md<CR>")

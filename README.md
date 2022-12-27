@@ -27,10 +27,9 @@ structure was stolen from ThePrimeagen's
 | ;t             | Open a terminal down                      |
 | ;T             | Open a terminal to the right              |
 |                |                                           |
-| <Tab>          | Open file explorer                        |
-|                |                                           |
 | ;ps            | Search project for string                 |
 | ;pf            | Search project for filename               |
+| ;pv            | Open file browser                         |
 |                |                                           |
 | ;w j           | Move to window down                       |
 | ;w k           | Move to window up                         |
