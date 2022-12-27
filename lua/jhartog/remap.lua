@@ -19,9 +19,14 @@ vim.keymap.set("n", "<leader>t", ":below split +te<CR>")
 vim.keymap.set("n", "<leader>T", ":below vertical split +te<CR>")
 
 -- File browser
-vim.keymap.set("n", "<leader>pv", ":Ex<CR>")
+local telescope = require('telescope.builtin')
+
+vim.keymap.set("n", "<leader>fb", ":Ex<CR>")
+vim.keymap.set('n', '<leader>ff', telescope.find_files, {})
+vim.keymap.set('n', '<leader>fs', telescope.live_grep, {})
 vim.keymap.set("n", "<Tab>", vim.cmd.NvimTreeToggle)
 
 -- Help
 local home = os.getenv('HOME')
+
 vim.keymap.set("n", "?", ":new " .. home .. "/.config/nvim/README.md<CR>")

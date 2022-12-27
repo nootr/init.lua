@@ -26,9 +26,9 @@ structure was stolen from ThePrimeagen's
 | ;t             | Open a terminal down                      |
 | ;T             | Open a terminal to the right              |
 |                |                                           |
-| ;ps            | Search project for string                 |
-| ;pf            | Search project for filename               |
-| ;pv            | Open file browser                         |
+| ;fs            | Search project for string                 |
+| ;ff            | Search project for filename               |
+| ;fb            | Open file browser                         |
 | <Tab>          | Toggle file tree                          |
 |                |                                           |
 | ;w j           | Move to window down                       |
