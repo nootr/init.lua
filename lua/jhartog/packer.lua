@@ -11,19 +11,19 @@ return require('packer').startup(function(use)
     })
 
     -- 🚦 lualine - A statusline
-    use {
+    use({
         'nvim-lualine/lualine.nvim',
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
-    }
+    })
 
     -- 📻 gruvbox baby - A color scheme
-    use "luisiacc/gruvbox-baby"
+    use('luisiacc/gruvbox-baby')
 
     -- 🌳 treesitter - A syntax highlighter
     use({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
 
     -- 💬 lsp zero - A Language Server collection
-    use {
+    use({
         'VonHeikemen/lsp-zero.nvim',
         requires = {
             -- LSP Support
@@ -43,7 +43,7 @@ return require('packer').startup(function(use)
             {'L3MON4D3/LuaSnip'},
             {'rafamadriz/friendly-snippets'},
         }
-    }
+    })
 
     -- ⚪ whitespace - A trailing whitespace highlighter
     use('johnfrankmorgan/whitespace.nvim')
@@ -55,5 +55,13 @@ return require('packer').startup(function(use)
     use('rcarriga/nvim-notify')
 
     -- 💦 dashboard - A splash screen
-    use {'glepnir/dashboard-nvim'}
+    use('glepnir/dashboard-nvim')
+
+    -- 🌳 nvim tree - A file browser
+    use({
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons',
+        },
+    })
 end)

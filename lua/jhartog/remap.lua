@@ -20,6 +20,7 @@ vim.keymap.set("n", "<leader>T", ":below vertical split +te<CR>")
 
 -- File browser
 vim.keymap.set("n", "<leader>pv", ":Ex<CR>")
+vim.keymap.set("n", "<Tab>", vim.cmd.NvimTreeToggle)
 
 -- Help
 local home = os.getenv('HOME')

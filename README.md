@@ -30,6 +30,7 @@ structure was stolen from ThePrimeagen's
 | ;ps            | Search project for string                 |
 | ;pf            | Search project for filename               |
 | ;pv            | Open file browser                         |
+| <Tab>          | Toggle file tree                          |
 |                |                                           |
 | ;w j           | Move to window down                       |
 | ;w k           | Move to window up                         |
