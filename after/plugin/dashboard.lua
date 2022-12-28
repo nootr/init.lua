@@ -1,10 +1,10 @@
 local db = require('dashboard')
 local home = os.getenv('HOME')
 
-db.preview_command = 'lolcat'
-db.preview_file_path = home .. '/.config/nvim/static/island.cat'
-db.preview_file_height = 8
-db.preview_file_width = 9
+db.preview_command = 'lolcat --seed 127'
+db.preview_file_path = home .. '/.config/nvim/static/cat.cat'
+db.preview_file_height = 12
+db.preview_file_width = 23
 db.custom_center = {
     {icon = '  ',
     desc = '[F]ile [B]rowser  ',
