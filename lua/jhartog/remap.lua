@@ -10,6 +10,10 @@ vim.keymap.set("v", "d", '"xd', { noremap = true })
 vim.keymap.set("n", "c", '"xc', { noremap = true })
 vim.keymap.set("v", "c", '"xc', { noremap = true })
 
+-- Center cursor after Ctrl+d/Ctrl+u
+vim.keymap.set("n", "<C-d>", "<C-d>zz", { noremap = true })
+vim.keymap.set("n", "<C-u>", "<C-u>zz", { noremap = true })
+
 -- Windows and panes
 vim.keymap.set("n", "<leader>w", "<C-w>")
 vim.keymap.set("t", "<leader>w", "<C-\\><C-n><C-w>", { noremap = true })
