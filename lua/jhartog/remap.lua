@@ -29,4 +29,4 @@ vim.keymap.set("n", "<Tab>", vim.cmd.NvimTreeToggle)
 -- Help
 local home = os.getenv('HOME')
 
-vim.keymap.set("n", "?", ":new " .. home .. "/.config/nvim/doc/help.md<CR>")
+vim.keymap.set("n", "?", ":new " .. home .. "/.config/nvim/docs/help.md<CR>")
