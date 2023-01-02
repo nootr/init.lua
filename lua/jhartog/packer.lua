@@ -51,8 +51,14 @@ return require('packer').startup(function(use)
     -- 🔏 signify - All things git
     use('mhinz/vim-signify')
 
-    -- 🗣️ nvim notify - Beautiful notifications
-    use('rcarriga/nvim-notify')
+    -- ✨ noice - Beautiful UI
+    use({
+        'folke/noice.nvim',
+        requires = {
+            'MunifTanjim/nui.nvim',
+            'rcarriga/nvim-notify',
+        }
+    })
 
     -- 💦 dashboard - A splash screen
     use('glepnir/dashboard-nvim')
