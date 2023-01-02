@@ -10,6 +10,8 @@
 | ;t             | Open a terminal down                      |
 | ;T             | Open a terminal to the right              |
 |                |                                           |
+| ;g             | Open lazygit                              |
+|                |                                           |
 | ;fw            | Format text and save file                 |
 |                |                                           |
 | ;fs            | Search project for string                 |

@@ -48,8 +48,11 @@ return require('packer').startup(function(use)
     -- ⚪ whitespace - A trailing whitespace highlighter
     use('johnfrankmorgan/whitespace.nvim')
 
-    -- 🔏 signify - All things git
+    -- 🔏 signify - A git change indicator
     use('mhinz/vim-signify')
+
+    -- 😴 lazygit - A git UI
+    use('kdheepak/lazygit.nvim')
 
     -- ✨ noice - Beautiful UI
     use({
