@@ -64,4 +64,7 @@ return require('packer').startup(function(use)
             'nvim-tree/nvim-web-devicons',
         },
     })
+
+    -- 📇 formatter - A code formatter manager
+    use('mhartington/formatter.nvim')
 end)

@@ -4,6 +4,9 @@ vim.g.mapleader = ";"
 -- Use 'jj' to escape
 vim.keymap.set("i", "jj", "<ESC>", { noremap = true })
 
+-- Format and write
+vim.keymap.set("n", "<leader>fw", vim.cmd.FormatWrite)
+
 -- Override 'd' and 'c' to prevent them from writing to the clipboard
 vim.keymap.set("n", "d", '"xd', { noremap = true })
 vim.keymap.set("v", "d", '"xd', { noremap = true })

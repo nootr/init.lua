@@ -10,10 +10,15 @@
 | ;t             | Open a terminal down                      |
 | ;T             | Open a terminal to the right              |
 |                |                                           |
+| ;fw            | Format text and save file                 |
+|                |                                           |
 | ;fs            | Search project for string                 |
 | ;ff            | Search project for filename               |
 | ;fb            | Open file browser                         |
 | <Tab>          | Toggle file tree                          |
+|                |                                           |
+| gd             | Go to definition                          |
+| ;gx            | Open URL in browser                       |
 |                |                                           |
 | ;w j           | Move to window down                       |
 | ;w k           | Move to window up                         |
