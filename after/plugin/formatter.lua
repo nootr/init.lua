@@ -1,4 +1,7 @@
-require('formatter').setup({
+local formatter = require('formatter')
+local formatters = require('formatter.filetypes.any')
+
+formatter.setup({
   filetype = {
     rust = {
       function()
@@ -17,8 +20,8 @@ require('formatter').setup({
         }
       end
     },
-    ["*"] = {
-      require("formatter.filetypes.any").remove_trailing_whitespace
+    ['*'] = {
+      formatters.remove_trailing_whitespace
     }
   }
 })

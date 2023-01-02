@@ -1,1 +1,1 @@
-require("jhartog")
+require('jhartog')

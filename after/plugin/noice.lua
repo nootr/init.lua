@@ -1,7 +1,7 @@
-vim.notify = require("notify")
-vim.noice = require("noice")
+local notify = require('notify')
+local noice = require('noice')
 
-vim.noice.setup({})
-vim.notify.setup({
-    background_colour = "#000000",
+noice.setup()
+notify.setup({
+    background_colour = '#000000',
 })

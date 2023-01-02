@@ -1,6 +1,8 @@
 vim.cmd.packadd('packer.nvim')
 
-return require('packer').startup(function(use)
+local packer = require('packer')
+
+return packer.startup(function(use)
     -- 📦 packer - A package manager
     use('wbthomason/packer.nvim')
 

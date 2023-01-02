@@ -13,13 +13,13 @@ vim.opt.smartindent = true
 vim.opt.wrap = true
 
 -- Mouse
-vim.opt.mouse = "a"
+vim.opt.mouse = 'a'
 
 -- Clipboard
-vim.opt.clipboard = "unnamedplus"
+vim.opt.clipboard = 'unnamedplus'
 
 -- Blazingly fast updates
 vim.opt.updatetime = 50
 
 -- Color column
-vim.opt.colorcolumn = "90"
+vim.opt.colorcolumn = '90'
