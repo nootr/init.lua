@@ -54,7 +54,7 @@ return require('packer').startup(function(use)
     -- 😴 lazygit - A git UI
     use('kdheepak/lazygit.nvim')
 
-    -- ✨ noice - Beautiful UI
+    -- ✨ noice - A beautiful UI
     use({
         'folke/noice.nvim',
         requires = {
