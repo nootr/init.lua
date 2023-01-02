@@ -18,8 +18,9 @@ return packer.startup(function(use)
         requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     })
 
-    -- 📻 gruvbox baby - A color scheme
-    use('luisiacc/gruvbox-baby')
+    -- 🖌️ melange - A color scheme inspired by Gruvbox
+    -- > Control flow should use warm colors and data should use cold colors.
+    use('savq/melange')
 
     -- 🌳 treesitter - A syntax highlighter
     use({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})

@@ -1,1 +1,2 @@
-vim.cmd.colorscheme('gruvbox-baby')
+vim.opt.termguicolors = true
+vim.cmd.colorscheme('melange')
