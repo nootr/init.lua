@@ -5,6 +5,8 @@ db.preview_command = 'lolcat --seed 127'
 db.preview_file_path = home .. '/.config/nvim/static/cat.cat'
 db.preview_file_height = 12
 db.preview_file_width = 23
+db.header_pad = 10
+
 db.custom_center = {
     {icon = '  ',
     desc = '[F]ile [B]rowser  ',
@@ -18,4 +20,9 @@ db.custom_center = {
     desc = '[F]ind [S]tring   ',
     action = 'Telescope live_grep',
     shortcut = ';fs'},
+}
+
+db.footer_pad = 10
+db.custom_footer = {
+    'o kama pona tawa ilo sitelen mi a!'
 }
