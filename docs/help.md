@@ -4,6 +4,9 @@
 | -------------- | ----------------------------------------- |
 | ?              | Open this file in a new window            |
 |                |                                           |
+| s<chars>       | Jump to given char(s)                     |
+| S<chars>       | Jump back to given char(s)                |
+|                |                                           |
 | jj             | Enter normal mode                         |
 | ;              | Leader                                    |
 |                |                                           |

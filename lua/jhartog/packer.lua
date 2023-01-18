@@ -79,4 +79,10 @@ return packer.startup(function(use)
 
     -- 📇 formatter - A code formatter manager
     use('mhartington/formatter.nvim')
+
+    -- 🦀 rust-tools - A plugin to improve your Rust experience
+    use('simrat39/rust-tools.nvim')
+
+    -- 🌌 lightspeed - A motion plugin
+    use('ggandor/lightspeed.nvim')
 end)
