@@ -83,6 +83,6 @@ return packer.startup(function(use)
     -- 🦀 rust-tools - A plugin to improve your Rust experience
     use('simrat39/rust-tools.nvim')
 
-    -- 🌌 lightspeed - A motion plugin
-    use('ggandor/lightspeed.nvim')
+    -- 🦘 leap - A motion plugin
+    use('ggandor/leap.nvim')
 end)
