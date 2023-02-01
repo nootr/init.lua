@@ -58,13 +58,14 @@ return packer.startup(function(use)
     use('kdheepak/lazygit.nvim')
 
     -- ✨ noice - A beautiful UI
-    use({
-        'folke/noice.nvim',
-        requires = {
-            'MunifTanjim/nui.nvim',
-            'rcarriga/nvim-notify',
-        }
-    })
+    -- TODO: fix
+    -- use({
+    --     'folke/noice.nvim',
+    --     requires = {
+    --         'MunifTanjim/nui.nvim',
+    --         'rcarriga/nvim-notify',
+    --     }
+    -- })
 
     -- 💦 dashboard - A splash screen
     use('glepnir/dashboard-nvim')
