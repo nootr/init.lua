@@ -43,8 +43,8 @@ return packer.startup(function(use)
             {'hrsh7th/cmp-nvim-lua'},
 
             -- Snippets
-            {'L3MON4D3/LuaSnip'},
-            {'rafamadriz/friendly-snippets'},
+            --{'L3MON4D3/LuaSnip'},
+            --{'rafamadriz/friendly-snippets'},
         }
     })
 
@@ -66,9 +66,6 @@ return packer.startup(function(use)
         }
     })
 
-    -- 💦 dashboard - A splash screen
-    use('glepnir/dashboard-nvim')
-
     -- 🌳 nvim tree - A file browser
     use({
         'nvim-tree/nvim-tree.lua',
@@ -85,4 +82,15 @@ return packer.startup(function(use)
 
     -- 🦘 leap - A motion plugin
     use('ggandor/leap.nvim')
+
+    -- 🤖 codium - An code completion AI
+    use({
+      'Exafunction/codeium.vim',
+      config = function ()
+        vim.keymap.set('i', '<C-g>', function() return vim.fn['codeium#Accept']() end, { expr = true })
+        vim.keymap.set('i', '<c-;>', function() return vim.fn['codeium#CycleCompletions'](1) end, { expr = true })
+        vim.keymap.set('i', '<c-,>', function() return vim.fn['codeium#CycleCompletions'](-1) end, { expr = true })
+        vim.keymap.set('i', '<c-x>', function() return vim.fn['codeium#Clear']() end, { expr = true })
+      end
+    })
 end)

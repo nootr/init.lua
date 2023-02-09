@@ -10,6 +10,10 @@
 | jj             | Enter normal mode                         |
 | ;              | Leader                                    |
 |                |                                           |
+| <C-g>          | Accept code completion suggestion         |
+| <C-;>, <C-,>   | Cycle through suggestions                 |
+| <C-x>          | Remove suggestion                         |
+|                |                                           |
 | ;t             | Open a terminal down                      |
 | ;T             | Open a terminal to the right              |
 |                |                                           |
