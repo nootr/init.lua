@@ -23,3 +23,18 @@ vim.opt.updatetime = 50
 
 -- Color column
 vim.opt.colorcolumn = '90'
+
+-- Set virtual env
+local set_venv_if_exists = function(dir)
+    local pwd = os.getenv('PWD')
+    local absolute_dir = pwd .. '/' .. dir
+
+    if vim.fn.isdirectory(absolute_dir) == 1 then
+        vim.env.VIRTUAL_ENV = absolute_dir
+    end
+end
+
+set_venv_if_exists(".venv")
+set_venv_if_exists("venv")
+set_venv_if_exists(".virtualenv")
+set_venv_if_exists("virtualenv")
