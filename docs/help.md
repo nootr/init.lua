@@ -33,6 +33,7 @@
 | ;w k           | Move to window up                         |
 | ;w h           | Move to window left                       |
 | ;w l           | Move to window right                      |
+| ;w =           | Reset pane sizes                          |
 |                |                                           |
 | :hide          | Close window without closing buffer       |
 | :bd            | Close window and buffer                   |
