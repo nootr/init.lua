@@ -51,8 +51,5 @@
 | ;w -           | Decrease window height by 1 row           |
 | ;w N -         | Decrease window height by N rows          |
 |                |                                           |
-| ;c             | Open ChatGPT window                       |
-| ;C             | Open ChatGPT window with current code     |
-|                |                                           |
 | :PackerSync    | Install/upgrade plugins                   |
 | :TSUpdate      | Install/upgrade treesitter parsers        |
