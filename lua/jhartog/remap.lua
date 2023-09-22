@@ -34,7 +34,7 @@ vim.keymap.set('n', '<leader>fb', ':Ex<CR>')
 vim.keymap.set('n', '<leader>ff', telescope.find_files, {})
 vim.keymap.set('n', '<leader>fr', telescope.resume, {})
 vim.keymap.set('n', '<leader>fs', telescope.live_grep, {})
-vim.keymap.set('n', '<Tab>', vim.cmd.NvimTreeToggle)
+vim.keymap.set('n', '<leader>ft', vim.cmd.NvimTreeToggle)
 
 -- Help
 vim.keymap.set('n', '?', ':new ' .. home .. '/.config/nvim/docs/help.md<CR>')

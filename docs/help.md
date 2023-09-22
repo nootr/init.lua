@@ -24,7 +24,7 @@
 | ;fs            | Search project for string                 |
 | ;ff            | Search project for filename               |
 | ;fb            | Open file browser                         |
-| <Tab>          | Toggle file tree                          |
+| ;ft            | Toggle file tree                          |
 |                |                                           |
 | gd             | Go to definition                          |
 | ;gx            | Open URL in browser                       |
