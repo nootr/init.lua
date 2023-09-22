@@ -83,7 +83,7 @@ return packer.startup(function(use)
     -- 🦘 leap - A motion plugin
     use('ggandor/leap.nvim')
 
-    -- 🤖 codium - A code completion AI
+    -- 🤖 codeium - A code completion AI
     use({
       'Exafunction/codeium.vim',
       config = function ()
@@ -93,17 +93,4 @@ return packer.startup(function(use)
         vim.keymap.set('i', '<c-x>', function() return vim.fn['codeium#Clear']() end, { expr = true })
       end
     })
-
-    -- ChatGPT.nvim - A ChatGPT interface
-    -- use({
-    --   "jackMort/ChatGPT.nvim",
-    --     config = function()
-    --       require("chatgpt").setup()
-    --     end,
-    --     requires = {
-    --       "MunifTanjim/nui.nvim",
-    --       "nvim-lua/plenary.nvim",
-    --       "nvim-telescope/telescope.nvim"
-    --     }
-    -- })
 end)
