@@ -22,6 +22,9 @@ return packer.startup(function(use)
     -- > Control flow should use warm colors and data should use cold colors.
     use('savq/melange')
 
+    -- 🖌️ nightfox - A highly customizable theme
+    use('EdenEast/nightfox.nvim')
+
     -- 🌳 treesitter - A syntax highlighter
     use({'nvim-treesitter/nvim-treesitter', run = ':TSUpdate'})
 
