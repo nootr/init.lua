@@ -57,15 +57,6 @@ return packer.startup(function(use)
     -- 😴 lazygit - A git UI
     use('kdheepak/lazygit.nvim')
 
-    -- ✨ noice - A beautiful UI
-    use({
-        'folke/noice.nvim',
-        requires = {
-            'MunifTanjim/nui.nvim',
-            'rcarriga/nvim-notify',
-        }
-    })
-
     -- 🌳 nvim tree - A file browser
     use({
         'nvim-tree/nvim-tree.lua',
@@ -76,9 +67,6 @@ return packer.startup(function(use)
 
     -- 📇 formatter - A code formatter manager
     use('mhartington/formatter.nvim')
-
-    -- 🦀 rust-tools - A plugin to improve your Rust experience
-    use('simrat39/rust-tools.nvim')
 
     -- 🦘 leap - A motion plugin
     use('ggandor/leap.nvim')
