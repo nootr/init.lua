@@ -14,6 +14,9 @@
 | <C-;>, <C-,>   | Cycle through suggestions                 |
 | <C-x>          | Remove suggestion                         |
 |                |                                           |
+| ;,             | Open previous tab                         |
+| ;.             | Open next tab                             |
+|                |                                           |
 | ;t             | Open a terminal down                      |
 | ;T             | Open a terminal to the right              |
 |                |                                           |

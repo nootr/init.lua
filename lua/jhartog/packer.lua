@@ -6,6 +6,12 @@ return packer.startup(function(use)
     -- 📦 packer - A package manager
     use('wbthomason/packer.nvim')
 
+    -- 📑 barbar - A tabline
+    use({
+        'romgrk/barbar.nvim',
+        requires = { {'nvim-tree/nvim-web-devicons'} }
+    })
+
     -- 🔭 telescope - A fuzzy finder
     use({
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
@@ -15,7 +21,7 @@ return packer.startup(function(use)
     -- 🚦 lualine - A statusline
     use({
         'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+        requires = { 'nvim-tree/nvim-web-devicons', opt = true }
     })
 
     -- 🖌️ melange - A color scheme inspired by Gruvbox
