@@ -1,5 +1,5 @@
 local lualine = require('lualine')
 
 lualine.setup {
-  options = { theme  = 'gruvbox' },
+  options = { theme  = 'seoul256' },
 }
